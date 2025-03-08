@@ -30,7 +30,7 @@ import { HttpClient } from '@angular/common/http';
       width: 100%;
       max-width: 450px;
       margin: auto;
-      background: linear-gradient(135deg, #f7f7f7, #e0e0e0);
+      background-color: #000000; /* Black background */
       padding: 30px;
       border-radius: 15px;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -51,7 +51,7 @@ import { HttpClient } from '@angular/common/http';
     .input-label {
       font-size: 14px;
       font-family: 'Poppins', sans-serif;
-      color: #444;
+      color: #ffffff; /* White text for the label */
       font-weight: bold;
       margin-bottom: 5px;
     }
@@ -62,6 +62,8 @@ import { HttpClient } from '@angular/common/http';
       border: 2px solid #ddd;
       border-radius: 10px;
       outline: none;
+      color: #ffffff; /* White text for input */
+      background-color: #333333; /* Dark background for input field */
       transition: border-color 0.3s ease, box-shadow 0.3s ease;
     }
 
@@ -99,7 +101,7 @@ import { HttpClient } from '@angular/common/http';
     .response-label {
       font-size: 14px;
       font-family: 'Roboto', sans-serif;
-      color: #444;
+      color: #ffffff; /* White text for the label */
       font-weight: bold;
       margin-bottom: 5px;
     }
@@ -114,8 +116,8 @@ import { HttpClient } from '@angular/common/http';
       min-height: 150px;
       max-height: 250px;
       resize: vertical;
-      background-color: #fafafa;
-      color: #333;
+      background-color: #333333; /* Dark background for response area */
+      color: #ffffff; /* White text for response area */
       line-height: 1.5;
       box-sizing: border-box;
       overflow-y: auto;
